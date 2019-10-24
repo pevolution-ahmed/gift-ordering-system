@@ -1,6 +1,6 @@
 const productModel = require('../../../db/mongodb/product').model;
-const makeProduct = require('../../../models/product/index'); 
 const serialize = require('./serializer'); 
+const makeProduct = require('../../../models/product/index'); 
 
 //-------------- API logic -----------------------------------------------------------------
 const listProducts = async() => {
