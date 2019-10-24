@@ -1,5 +1,5 @@
 const orderModel = require('../../../db/mongodb/order').model;
-const makeOrder = require('../../../models/Order/index'); 
+const makeOrder = require('../../../models/order/index'); 
 const serialize = require('./serializer'); 
 //------------------------ Business Logic -----------------------------------------------
 let addProductToOrder = async (product , order) =>{
