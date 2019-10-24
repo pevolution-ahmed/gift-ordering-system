@@ -1,5 +1,5 @@
-let Joi = require('@hapi/joi');
-Joi.objectId = require('joi-objectid')(Joi);
+let Joi = require('./node_modules/@hapi/joi');
+Joi.objectId = require('./node_modules/joi-objectid')(Joi);
 
 module.exports = Joi.object({
     name  : Joi.string().required().min(5).max(255),
