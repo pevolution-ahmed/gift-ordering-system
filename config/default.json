@@ -1,0 +1,7 @@
+{
+  "port":"",
+  "JWT_KEY":"",
+  "DBUser": "",
+  "DBPassword": "",
+  "DBName":""
+}

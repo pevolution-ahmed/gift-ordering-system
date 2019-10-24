@@ -1,0 +1,7 @@
+{
+  "port":"GIFT_PORT",
+  "JWT_KEY":"GIFT_JWT_KEY",
+  "DBUser": "GIFT_DBUser",
+  "DBPassword": "GIFT_DBPassword",
+  "DBName":"GIFT_DBName"
+}
