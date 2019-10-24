@@ -1,5 +1,5 @@
 const productModel = require('../../../db/mongodb/product').model;
-const makeProduct = require('../../../models/Product/index'); 
+const makeProduct = require('../../../models/product/index'); 
 const serialize = require('./serializer'); 
 
 //-------------- API logic -----------------------------------------------------------------
